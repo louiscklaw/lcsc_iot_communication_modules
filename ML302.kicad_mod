@@ -1,0 +1,537 @@
+(module "ML302" (layer F.Cu) (tedit 620CDCA5)
+  (descr "ML302, LCC 2G/3G/4G/5G Modules ROHS")
+  (tags "LCC 2G/3G/4G/5G Modules ROHS, IoT,Communication Modules, 2G/3G/4G/5G Modules")
+  (fp_text reference REF** (at 0 -16.732029) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value ML302 (at 0 16.732029) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center -15.999873 -14.500127) (end -15.969901 -14.500127) (layer F.SilkS) (width 0.059995))
+  (fp_circle (center -17.271908 -13.589027) (end -16.912751 -13.589027) (layer F.SilkS) (width 0.254001))
+  (fp_circle (center -16.382906 -12.827026) (end -15.882779 -12.827026) (layer F.Fab) (width 1))
+  (fp_line (start -16.129032 -13.230836) (end -16.129032 -14.732029) (layer F.SilkS) (width 0.254001))
+  (fp_line (start -16.129032 -14.732029) (end -12.954026 -14.732029) (layer F.SilkS) (width 0.254001))
+  (fp_line (start -16.129032 13.231598) (end -16.129032 14.732029) (layer F.SilkS) (width 0.254001))
+  (fp_line (start -16.129032 14.732029) (end -13.081026 14.732029) (layer F.SilkS) (width 0.254001))
+  (fp_line (start 13.208026 14.478029) (end 16.002032 14.478029) (layer F.SilkS) (width 0.254001))
+  (fp_line (start 16.002032 14.478029) (end 16.002032 13.335027) (layer F.SilkS) (width 0.254001))
+  (fp_line (start 13.589027 -14.732029) (end 16.129032 -14.732029) (layer F.SilkS) (width 0.254001))
+  (fp_line (start 16.129032 -14.732029) (end 16.129032 -13.230836) (layer F.SilkS) (width 0.254001))
+  (pad 168 smd custom (at 8.000127 7.199898) (size 2.000025 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1.000102 -1.199898) (xy 0.999924 -1.199898) (xy 0.999924 1.200102) (xy -1.000102 1.200102)) (width 0))
+    ))
+  (pad 167 smd custom (at 4.799975 7.199898) (size 2 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.999949 -1.199898) (xy 1.000051 -1.199898) (xy 1.000051 1.200102) (xy -0.999949 1.200102)) (width 0))
+    ))
+  (pad 166 smd custom (at 1.600076 7.199898) (size 2 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1.000051 -1.199898) (xy 0.999949 -1.199898) (xy 0.999949 1.200102) (xy -1.000051 1.200102)) (width 0))
+    ))
+  (pad 165 smd custom (at -1.600076 7.199898) (size 2 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.999898 -1.199898) (xy 1.000102 -1.199898) (xy 1.000102 1.200102) (xy -0.999898 1.200102)) (width 0))
+    ))
+  (pad 164 smd custom (at -4.799975 7.199898) (size 2 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1 -1.199898) (xy 1 -1.199898) (xy 1 1.200102) (xy -1 1.200102)) (width 0))
+    ))
+  (pad 163 smd custom (at -7.999873 7.199898) (size 2.000025 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1.000127 -1.199898) (xy 0.999898 -1.199898) (xy 0.999898 1.200102) (xy -1.000127 1.200102)) (width 0))
+    ))
+  (pad 162 smd custom (at 8.000127 3.599949) (size 2.000025 2.400025) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1.000102 -1.199975) (xy 0.999924 -1.199975) (xy 0.999924 1.200051) (xy -1.000102 1.200051)) (width 0))
+    ))
+  (pad 161 smd custom (at 4.799975 3.599949) (size 2 2.400025) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.999949 -1.199975) (xy 1.000051 -1.199975) (xy 1.000051 1.200051) (xy -0.999949 1.200051)) (width 0))
+    ))
+  (pad 160 smd custom (at 1.600076 3.599949) (size 2 2.400025) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1.000051 -1.199975) (xy 0.999949 -1.199975) (xy 0.999949 1.200051) (xy -1.000051 1.200051)) (width 0))
+    ))
+  (pad 159 smd custom (at -1.600076 3.599949) (size 2 2.400025) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.999898 -1.199975) (xy 1.000102 -1.199975) (xy 1.000102 1.200051) (xy -0.999898 1.200051)) (width 0))
+    ))
+  (pad 158 smd custom (at -4.799975 3.599949) (size 2 2.400025) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1 -1.199975) (xy 1 -1.199975) (xy 1 1.200051) (xy -1 1.200051)) (width 0))
+    ))
+  (pad 157 smd custom (at -7.999873 3.599949) (size 2.000025 2.400025) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1.000127 -1.199975) (xy 0.999898 -1.199975) (xy 0.999898 1.200051) (xy -1.000127 1.200051)) (width 0))
+    ))
+  (pad 156 smd rect (at 8.000127 0) (size 2.000025 2.4) (layers F.Cu F.Mask F.Paste))
+  (pad 155 smd custom (at 4.799975 0) (size 2 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.999949 -1.200025) (xy 1.000051 -1.200025) (xy 1.000051 1.199975) (xy -0.999949 1.199975)) (width 0))
+    ))
+  (pad 154 smd custom (at 1.600076 0) (size 2 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1.000051 -1.200025) (xy 0.999949 -1.200025) (xy 0.999949 1.199975) (xy -1.000051 1.199975)) (width 0))
+    ))
+  (pad 153 smd custom (at -1.600076 0) (size 2 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.999898 -1.200025) (xy 1.000102 -1.200025) (xy 1.000102 1.199975) (xy -0.999898 1.199975)) (width 0))
+    ))
+  (pad 152 smd custom (at -4.799975 0) (size 2 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1 -1.200025) (xy 1 -1.200025) (xy 1 1.199975) (xy -1 1.199975)) (width 0))
+    ))
+  (pad 151 smd custom (at -7.999873 0) (size 2.000025 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1.000127 -1.200025) (xy 0.999898 -1.200025) (xy 0.999898 1.199975) (xy -1.000127 1.199975)) (width 0))
+    ))
+  (pad 150 smd custom (at 8.000127 -3.599949) (size 2.000025 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1.000102 -1.200076) (xy 0.999924 -1.200076) (xy 0.999924 1.199924) (xy -1.000102 1.199924)) (width 0))
+    ))
+  (pad 149 smd custom (at 4.799975 -3.599949) (size 2 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.999949 -1.200076) (xy 1.000051 -1.200076) (xy 1.000051 1.199924) (xy -0.999949 1.199924)) (width 0))
+    ))
+  (pad 148 smd custom (at 1.600076 -3.599949) (size 2 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1.000051 -1.200076) (xy 0.999949 -1.200076) (xy 0.999949 1.199924) (xy -1.000051 1.199924)) (width 0))
+    ))
+  (pad 147 smd custom (at -1.600076 -3.599949) (size 2 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.999898 -1.200076) (xy 1.000102 -1.200076) (xy 1.000102 1.199924) (xy -0.999898 1.199924)) (width 0))
+    ))
+  (pad 146 smd custom (at -4.799975 -3.599949) (size 2 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1 -1.200076) (xy 1 -1.200076) (xy 1 1.199924) (xy -1 1.199924)) (width 0))
+    ))
+  (pad 145 smd custom (at -7.999873 -3.599949) (size 2.000025 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1.000127 -1.200076) (xy 0.999898 -1.200076) (xy 0.999898 1.199924) (xy -1.000127 1.199924)) (width 0))
+    ))
+  (pad 144 smd custom (at 8.000127 -7.200152) (size 2.000025 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1.000102 -1.199873) (xy 0.999924 -1.199873) (xy 0.999924 1.200127) (xy -1.000102 1.200127)) (width 0))
+    ))
+  (pad 143 smd custom (at 4.799975 -7.200152) (size 2 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.999949 -1.199873) (xy 1.000051 -1.199873) (xy 1.000051 1.200127) (xy -0.999949 1.200127)) (width 0))
+    ))
+  (pad 142 smd custom (at 1.600076 -7.200152) (size 2 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1.000051 -1.199873) (xy 0.999949 -1.199873) (xy 0.999949 1.200127) (xy -1.000051 1.200127)) (width 0))
+    ))
+  (pad 141 smd custom (at -1.600076 -7.200152) (size 2 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.999898 -1.199873) (xy 1.000102 -1.199873) (xy 1.000102 1.200127) (xy -0.999898 1.200127)) (width 0))
+    ))
+  (pad 140 smd custom (at -4.799975 -7.200152) (size 2 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1 -1.199873) (xy 1 -1.199873) (xy 1 1.200127) (xy -1 1.200127)) (width 0))
+    ))
+  (pad 139 smd custom (at -7.999873 -7.200152) (size 2.000025 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -1.000127 -1.199873) (xy 0.999898 -1.199873) (xy 0.999898 1.200127) (xy -1.000127 1.200127)) (width 0))
+    ))
+  (pad 138 smd rect (at -9.149987 10.450089) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 137 smd rect (at -7.250064 10.450089) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 136 smd rect (at -5.349886 10.450089) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 135 smd rect (at -3.449962 10.450089) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 134 smd rect (at -1.550038 10.450089) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 133 smd rect (at 0.35014 10.450089) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 132 smd rect (at 2.250064 10.450089) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 131 smd rect (at 4.149987 10.450089) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 130 smd rect (at 6.049911 10.450089) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 129 smd rect (at 7.950089 10.450089) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 128 smd rect (at 9.850013 10.450089) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 127 smd rect (at 11.749936 10.450089) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 126 smd rect (at 11.749936 8.549911) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 125 smd rect (at 11.749936 6.649987) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 124 smd rect (at 11.749936 4.749809) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 123 smd rect (at 11.749936 2.849886) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 122 smd rect (at 11.749936 0.949708) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 121 smd rect (at 11.749936 -0.950216) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 120 smd rect (at 11.749936 -2.85014) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 119 smd rect (at 11.749936 -4.750318) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 118 smd rect (at 11.749936 -6.650241) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 117 smd rect (at 11.749936 -8.550419) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 116 smd rect (at 11.749936 -10.450343) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 115 smd rect (at 9.850013 -10.450343) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 114 smd rect (at 7.950089 -10.450343) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 113 smd rect (at 6.049911 -10.450343) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 112 smd rect (at 4.149987 -10.450343) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 111 smd rect (at 2.250064 -10.450343) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 110 smd rect (at 0.35014 -10.450343) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 109 smd rect (at -1.550038 -10.450343) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 108 smd rect (at -3.449962 -10.450343) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 107 smd rect (at -5.349886 -10.450343) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 106 smd rect (at -7.250064 -10.450343) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 105 smd rect (at -9.149987 -10.450343) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 104 smd rect (at -11.049911 -10.450343) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 103 smd rect (at -11.049911 -8.550419) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 102 smd rect (at -11.049911 -6.650241) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 101 smd rect (at -11.049911 -4.750318) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 100 smd rect (at -11.049911 -2.85014) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 99 smd rect (at -11.049911 -0.950216) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 98 smd rect (at -11.049911 0.949708) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 97 smd rect (at -11.049911 2.849886) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 96 smd rect (at -11.049911 4.749809) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 95 smd rect (at -11.049911 6.649987) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 94 smd rect (at -11.049911 8.549911) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 93 smd rect (at -11.049911 10.450089) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 92 smd rect (at -12.950089 10.450089) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 91 smd rect (at -12.950089 8.549911) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 90 smd rect (at -12.950089 6.649987) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 89 smd rect (at -12.950089 4.749809) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 88 smd rect (at -12.950089 2.849886) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 87 smd rect (at -12.950089 0.949708) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 86 smd rect (at -12.950089 -0.950216) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 85 smd rect (at -12.950089 -2.85014) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 84 smd rect (at -12.950089 -4.750318) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 83 smd rect (at -12.950089 -6.650241) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 82 smd rect (at -12.950089 -8.550419) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 81 smd rect (at -12.950089 -10.450343) (size 1.1 1.1) (layers F.Cu F.Mask F.Paste))
+  (pad 20 smd rect (at -15.675006 12.600457) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 19 smd rect (at -15.675006 11.300483) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 18 smd rect (at -15.675006 10.000508) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 17 smd rect (at -15.675006 8.700279) (size 2.4 0.800025) (layers F.Cu F.Mask F.Paste))
+  (pad 16 smd rect (at -15.675006 7.400305) (size 2.4 0.800025) (layers F.Cu F.Mask F.Paste))
+  (pad 15 smd rect (at -15.675006 6.10033) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 14 smd rect (at -15.675006 4.800356) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 13 smd rect (at -15.675006 3.500381) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 12 smd rect (at -15.675006 2.200406) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 11 smd rect (at -15.675006 0.900432) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 10 smd rect (at -15.675006 -0.399543) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 9 smd rect (at -15.675006 -1.699517) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 8 smd rect (at -15.675006 -2.999746) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 7 smd rect (at -15.675006 -4.799594) (size 2.4 0.800025) (layers F.Cu F.Mask F.Paste))
+  (pad 6 smd rect (at -15.675006 -6.099568) (size 2.4 0.800025) (layers F.Cu F.Mask F.Paste))
+  (pad 5 smd rect (at -15.675006 -7.399543) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 4 smd rect (at -15.675006 -8.699517) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 3 smd rect (at -15.675006 -9.999746) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 2 smd rect (at -15.675006 -11.299721) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 1 smd rect (at -15.675006 -12.599695) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 21 smd custom (at -12.139827 14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.400025 -1.2) (xy 0.399975 -1.2) (xy 0.399975 1.2) (xy -0.400025 1.2)) (width 0))
+    ))
+  (pad 22 smd custom (at -10.839853 14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.400051 -1.2) (xy 0.399949 -1.2) (xy 0.399949 1.2) (xy -0.400051 1.2)) (width 0))
+    ))
+  (pad 23 smd custom (at -9.539878 14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.400076 -1.2) (xy 0.399924 -1.2) (xy 0.399924 1.2) (xy -0.400076 1.2)) (width 0))
+    ))
+  (pad 24 smd custom (at -8.239903 14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.400102 -1.2) (xy 0.399898 -1.2) (xy 0.399898 1.2) (xy -0.400102 1.2)) (width 0))
+    ))
+  (pad 25 smd custom (at -6.939675 14.175006) (size 0.800025 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.399898 -1.2) (xy 0.400127 -1.2) (xy 0.400127 1.2) (xy -0.399898 1.2)) (width 0))
+    ))
+  (pad 26 smd custom (at -5.6397 14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.399924 -1.2) (xy 0.400076 -1.2) (xy 0.400076 1.2) (xy -0.399924 1.2)) (width 0))
+    ))
+  (pad 27 smd custom (at -4.339726 14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.399949 -1.2) (xy 0.400051 -1.2) (xy 0.400051 1.2) (xy -0.399949 1.2)) (width 0))
+    ))
+  (pad 28 smd custom (at -3.039751 14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.399975 -1.2) (xy 0.400025 -1.2) (xy 0.400025 1.2) (xy -0.399975 1.2)) (width 0))
+    ))
+  (pad 29 smd custom (at -1.739776 14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.4 -1.2) (xy 0.4 -1.2) (xy 0.4 1.2) (xy -0.4 1.2)) (width 0))
+    ))
+  (pad 30 smd custom (at -0.439802 14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.400025 -1.2) (xy 0.399975 -1.2) (xy 0.399975 1.2) (xy -0.400025 1.2)) (width 0))
+    ))
+  (pad 31 smd custom (at 0.860173 14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.400051 -1.2) (xy 0.399949 -1.2) (xy 0.399949 1.2) (xy -0.400051 1.2)) (width 0))
+    ))
+  (pad 32 smd custom (at 2.160147 14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.400076 -1.2) (xy 0.399924 -1.2) (xy 0.399924 1.2) (xy -0.400076 1.2)) (width 0))
+    ))
+  (pad 33 smd custom (at 3.460122 14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.400102 -1.2) (xy 0.399898 -1.2) (xy 0.399898 1.2) (xy -0.400102 1.2)) (width 0))
+    ))
+  (pad 34 smd custom (at 4.760351 14.175006) (size 0.800025 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.399898 -1.2) (xy 0.400127 -1.2) (xy 0.400127 1.2) (xy -0.399898 1.2)) (width 0))
+    ))
+  (pad 35 smd custom (at 6.060325 14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.399924 -1.2) (xy 0.400076 -1.2) (xy 0.400076 1.2) (xy -0.399924 1.2)) (width 0))
+    ))
+  (pad 36 smd custom (at 7.3603 14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.399949 -1.2) (xy 0.400051 -1.2) (xy 0.400051 1.2) (xy -0.399949 1.2)) (width 0))
+    ))
+  (pad 37 smd custom (at 8.660274 14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.399975 -1.2) (xy 0.400025 -1.2) (xy 0.400025 1.2) (xy -0.399975 1.2)) (width 0))
+    ))
+  (pad 38 smd custom (at 9.960249 14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.4 -1.2) (xy 0.4 -1.2) (xy 0.4 1.2) (xy -0.4 1.2)) (width 0))
+    ))
+  (pad 39 smd custom (at 11.260224 14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.400025 -1.2) (xy 0.399975 -1.2) (xy 0.399975 1.2) (xy -0.400025 1.2)) (width 0))
+    ))
+  (pad 40 smd custom (at 12.560198 14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.400051 -1.2) (xy 0.399949 -1.2) (xy 0.399949 1.2) (xy -0.400051 1.2)) (width 0))
+    ))
+  (pad 41 smd rect (at 15.675006 12.600457) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 42 smd rect (at 15.675006 11.300483) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 43 smd rect (at 15.675006 10.000508) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 44 smd rect (at 15.675006 8.700279) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 45 smd rect (at 15.675006 7.400305) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 46 smd rect (at 15.675006 6.10033) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 47 smd rect (at 15.675006 4.800356) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 48 smd rect (at 15.675006 3.500381) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 49 smd rect (at 15.675006 2.200406) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 50 smd rect (at 15.675006 0.900432) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 51 smd rect (at 15.675006 -0.399543) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 52 smd rect (at 15.675006 -1.699517) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 53 smd rect (at 15.675006 -2.999746) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 54 smd rect (at 15.675006 -4.799594) (size 2.4 0.800025) (layers F.Cu F.Mask F.Paste))
+  (pad 55 smd rect (at 15.675006 -6.099568) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 56 smd rect (at 15.675006 -7.399543) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 57 smd rect (at 15.675006 -8.699517) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 58 smd rect (at 15.675006 -9.999746) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 59 smd rect (at 15.675006 -11.299721) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 60 smd rect (at 15.675006 -12.599695) (size 2.4 0.8) (layers F.Cu F.Mask F.Paste))
+  (pad 61 smd custom (at 12.550038 -14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.399975 -1.200076) (xy 0.400025 -1.200076) (xy 0.400025 1.199924) (xy -0.399975 1.199924)) (width 0))
+    ))
+  (pad 62 smd custom (at 11.250064 -14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.399975 -1.200051) (xy 0.400025 -1.200051) (xy 0.400025 1.199949) (xy -0.399975 1.199949)) (width 0))
+    ))
+  (pad 63 smd custom (at 9.950089 -14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.4 -1.200051) (xy 0.4 -1.200051) (xy 0.4 1.199949) (xy -0.4 1.199949)) (width 0))
+    ))
+  (pad 64 smd custom (at 8.650114 -14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.400025 -1.200051) (xy 0.399975 -1.200051) (xy 0.399975 1.199949) (xy -0.400025 1.199949)) (width 0))
+    ))
+  (pad 65 smd custom (at 7.35014 -14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.400051 -1.200051) (xy 0.399949 -1.200051) (xy 0.399949 1.199949) (xy -0.400051 1.199949)) (width 0))
+    ))
+  (pad 66 smd custom (at 6.050165 -14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.400076 -1.200051) (xy 0.399924 -1.200051) (xy 0.399924 1.199949) (xy -0.400076 1.199949)) (width 0))
+    ))
+  (pad 67 smd custom (at 4.750191 -14.175006) (size 0.800025 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.400127 -1.200051) (xy 0.399898 -1.200051) (xy 0.399898 1.199949) (xy -0.400127 1.199949)) (width 0))
+    ))
+  (pad 68 smd custom (at 3.449962 -14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.399873 -1.200051) (xy 0.400127 -1.200051) (xy 0.400127 1.199949) (xy -0.399873 1.199949)) (width 0))
+    ))
+  (pad 69 smd custom (at 2.149987 -14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.399898 -1.200051) (xy 0.400102 -1.200051) (xy 0.400102 1.199949) (xy -0.399898 1.199949)) (width 0))
+    ))
+  (pad 70 smd custom (at 0.850013 -14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.399924 -1.200051) (xy 0.400076 -1.200051) (xy 0.400076 1.199949) (xy -0.399924 1.199949)) (width 0))
+    ))
+  (pad 71 smd custom (at -0.449962 -14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.399949 -1.200051) (xy 0.400051 -1.200051) (xy 0.400051 1.199949) (xy -0.399949 1.199949)) (width 0))
+    ))
+  (pad 72 smd custom (at -1.749936 -14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.399975 -1.200051) (xy 0.400025 -1.200051) (xy 0.400025 1.199949) (xy -0.399975 1.199949)) (width 0))
+    ))
+  (pad 73 smd custom (at -3.049911 -14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.4 -1.200051) (xy 0.4 -1.200051) (xy 0.4 1.199949) (xy -0.4 1.199949)) (width 0))
+    ))
+  (pad 74 smd custom (at -4.349886 -14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.400025 -1.200051) (xy 0.399975 -1.200051) (xy 0.399975 1.199949) (xy -0.400025 1.199949)) (width 0))
+    ))
+  (pad 75 smd custom (at -5.64986 -14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.400051 -1.200051) (xy 0.399949 -1.200051) (xy 0.399949 1.199949) (xy -0.400051 1.199949)) (width 0))
+    ))
+  (pad 76 smd custom (at -6.949835 -14.175006) (size 0.800025 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.400076 -1.200051) (xy 0.399949 -1.200051) (xy 0.399949 1.199949) (xy -0.400076 1.199949)) (width 0))
+    ))
+  (pad 77 smd custom (at -8.250064 -14.175006) (size 0.800025 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.399924 -1.200051) (xy 0.400102 -1.200051) (xy 0.400102 1.199949) (xy -0.399924 1.199949)) (width 0))
+    ))
+  (pad 78 smd custom (at -9.550038 -14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.399949 -1.200051) (xy 0.400051 -1.200051) (xy 0.400051 1.199949) (xy -0.399949 1.199949)) (width 0))
+    ))
+  (pad 79 smd custom (at -10.850013 -14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.399975 -1.200051) (xy 0.400025 -1.200051) (xy 0.400025 1.199949) (xy -0.399975 1.199949)) (width 0))
+    ))
+  (pad 80 smd custom (at -12.149987 -14.175006) (size 0.8 2.4) (layers F.Cu F.Mask F.Paste)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.4 -1.200051) (xy 0.4 -1.200051) (xy 0.4 1.199949) (xy -0.4 1.199949)) (width 0))
+    ))
+  (fp_text user REF** (at 0 18.732029) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)
